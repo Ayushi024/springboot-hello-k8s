@@ -51,7 +51,7 @@ jobs:
       #     mkdir -p ~/.kube
       #     echo "${{ secrets.KUBECONFIG_CONTENT }}" > ~/.kube/config
 
-      - name: Deploy to Kubernetes
-        run: |
-          kubectl apply -f deployment.yaml
-          kubectl apply -f service.yaml
+      # - name: Deploy to Kubernetes
+      #   run: |
+      #     kubectl apply -f deployment.yaml
+      #     kubectl apply -f service.yaml
